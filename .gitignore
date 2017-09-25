@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# IntelliJ files
+.idea
+
+# 3rd party modules that should not be checked in
+bower_components
+node_modules
+
+# Karma code coverage reports
+coverage
+
+# Build folder
+build
