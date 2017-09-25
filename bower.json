@@ -19,5 +19,8 @@
   "devDependencies": {
     "dimple": "^2.3.0",
     "d3": "^4.10.0"
+  },
+  "resolutions": {
+    "d3": "^4.10.0"
   }
 }
