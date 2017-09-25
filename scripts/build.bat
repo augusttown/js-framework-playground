@@ -1,4 +1,4 @@
 REM build batch script
-bower install
-bower update
+bower.cmd install
+bower.cmd update
 npm install
