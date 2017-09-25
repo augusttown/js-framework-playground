@@ -1,10 +1,4 @@
 REM build batch script
-
-ECHO bower install
-bower install
-
-ECHO bower update
-bower update
-
-ECHO npm install
+js/bower install
+js/bower update
 npm install
