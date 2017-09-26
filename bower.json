@@ -1,26 +1,33 @@
 {
-  "name": "js-framework-playground",
-  "description": "js-framework-playground",
-  "main": "index.html",
-  "authors": [
-    "Yingqi Tang <yingtang@deloitte.com>"
-  ],
-  "license": "MIT",
-  "homepage": "",
-  "private": true,
-  "ignore": [
-    "bower_components"
-  ],
-  "dependencies": {
-    "leaflet": "^1.0.3",
-    "jquery": "^3.2.1",
-    "angular": "^1.6.4"
-  },
-  "devDependencies": {
-    "dimple": "^2.3.0",
-    "d3": "^4.10.0"
-  },
-  "resolutions": {
-    "d3": "^4.10.0"
-  }
+    "name": "js-framework-playground",
+    "description": "js-framework-playground",
+    "main": "index.html",
+    "authors": [
+        "Yingqi Tang <anakintang@gmail.com>"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "bower_components"
+    ],
+    "dependencies": {
+        "leaflet": "^1.0.3",
+        "jquery": "^3.2.1",
+        "angular": "^1.6.4",
+        "angular-mocks": "^1.6.4",
+        "dimple": "^2.3.0",
+        "d3": "^4.10.0"
+    },
+    "devDependencies": {
+        "leaflet": "^1.0.3",
+        "jquery": "^3.2.1",
+        "angular": "^1.6.4",
+        "angular-mocks": "^1.6.4",
+        "dimple": "^2.3.0",
+        "d3": "^4.10.0"
+    },
+    "resolutions": {
+        "d3": "^4.10.0"
+    }
 }
