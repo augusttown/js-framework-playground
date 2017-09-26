@@ -14,3 +14,6 @@ report-summary
 
 # Build folder
 build
+
+# Dist folder
+dist
