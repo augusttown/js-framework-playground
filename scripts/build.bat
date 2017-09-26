@@ -1,3 +1,4 @@
-::C:\Users\yingtang\AppData\Roaming\npm\bower.cmd install
-::C:\Users\yingtang\AppData\Roaming\npm\bower.cmd bower.cmd update
-npm install
+call C:\Users\yingtang\AppData\Roaming\npm\bower.cmd install
+call C:\Users\yingtang\AppData\Roaming\npm\bower.cmd update
+call npm install
+
