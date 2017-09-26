@@ -1,4 +1,4 @@
-call C:\Users\yingtang\AppData\Roaming\npm\bower.cmd install
-call C:\Users\yingtang\AppData\Roaming\npm\bower.cmd update
+call %APPDATA%\npm\bower install
+call %APPDATA%\npm\bower update
 call npm install
-
+echo "build completed successfully"

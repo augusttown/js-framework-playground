@@ -10,7 +10,6 @@ bower_components
 node_modules
 
 # Karma code coverage reports
-coverage
 report-summary
 
 # Build folder

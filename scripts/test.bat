@@ -1,2 +1,2 @@
-echo "Running unit tests"
-npm test
+call npm test
+echo "test completed successfully"

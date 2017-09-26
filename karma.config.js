@@ -18,10 +18,10 @@ module.exports = function(config) {
       'js/bower_components/angular-mocks/angular-mocks.js',
       'js/bower_components/jquery/dist/jquery.min.js',
       //
-      'js/angularjs-app/app.js',
+      'js/app.js',
       //
-      'js/angularjs-app/services/basic-service.js',
-      'js/angularjs-app/controllers/basic.js',
+      'js/services/basic-service.js',
+      'js/controllers/basic.js',
       //      
       'unit-tests/jasmine.test.spec.js'
       //'unit-tests/sinon.test.spec.js'
