@@ -1,4 +1,4 @@
 REM build batch script
-bower.cmd install
-bower.cmd update
+C:\Users\yingtang\AppData\Roaming\npm\bower.cmd install
+C:\Users\yingtang\AppData\Roaming\npm\bower.cmd bower.cmd update
 npm install
