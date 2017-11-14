@@ -1,0 +1,12 @@
+.gitignore
+js-framework-playground.iml
+gruntfile.js
+karma.conf.js
+package.json
+.git
+.idea
+build
+dist
+functionalTests
+coverage
+scripts

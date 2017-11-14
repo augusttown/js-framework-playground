@@ -2,19 +2,35 @@
     "name": "js-framework-playground",
     "version": "0.0.1",
     "private": true,
+    "registry": "https://artifactory.tools.deloitteinnovation.us/artifactory/api/npm/npm-virtual",
     "scripts": {
         "test": "karma start karma.config.js"
     },
     "dependencies": {
+        "leaflet": "^1.0.3",
+        "jquery": "^3.2.1",
+        "angular": "^1.6.4",
+        "angular-mocks": "^1.6.4",
+        "d3": "^4.10.0",
+        "dimple-js": "^2.3.0"
+    },
+    "devDependencies": {
         "body-parser": "~1.17.1",
+        "chai": "^4.0.2",
         "cookie-parser": "~1.4.3",
         "cors": "^2.8.3",
         "debug": "~2.6.3",
         "express": "~4.15.2",
+        "grunt": "^1.0.1",
+        "grunt-angular-templates": "^1.1.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-contrib-qunit": "^2.0.0",
+        "grunt-contrib-requirejs": "^1.0.0",
+        "grunt-contrib-uglify": "^3.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-ng-annotate": "^3.0.0",
         "jade": "~1.11.0",
-        "morgan": "~1.8.1",
-        "serve-favicon": "~2.4.2",
-        "chai": "^4.0.2",
         "jasmine-core": "^2.6.2",
         "karma": "^1.7.0",
         "karma-chai": "^0.1.0",
@@ -25,6 +41,11 @@
         "karma-phantomjs-launcher": "^1.0.4",
         "karma-remote-reporter": "^0.2.0",
         "karma-sinon": "^1.0.5",
+        "morgan": "~1.8.1",
+        "serve-favicon": "~2.4.2",
         "sinon": "^2.3.2"
+    },
+    "resolutions": {
+        "d3": "^4.10.0"
     }
 }

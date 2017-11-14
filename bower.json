@@ -1,3 +1,6 @@
+// deprecate bower
+// dependencies are listed in package.json
+/*
 {
     "name": "js-framework-playground",
     "description": "js-framework-playground",
@@ -31,3 +34,4 @@
         "d3": "^4.10.0"
     }
 }
+*/

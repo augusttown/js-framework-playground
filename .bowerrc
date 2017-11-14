@@ -1,3 +1,8 @@
+// deprecate bower
+// dependencies are listed in package.json
+/*
 {
-  "directory": "js/bower_components"
+    // specific where bower_components should be located
+    "directory": "js/bower_components"
 }
+*/
