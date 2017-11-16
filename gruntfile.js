@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         jshint: {
-            files: ['gruntfile.js', 'js/**/*.js'],
+            files: ['gruntfile.js', 'js/**/*.js', '!js/js-framework-playground.min.js'],
             options: {
                 globals: {
                     jQuery: true
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
             build: {
                 files: {
                     'build/templates.min.js': ['build/templates.js'],
-                    'js/<%= pkg.name %>.min.js': ['js/**/*.js']
+                    'build/<%= pkg.name %>.min.js': ['js/**/*.js']
                 }
             }
         },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                 // the files to concatenate
                 src: ['build/<%= pkg.name %>.min.js', 'build/templates.min.js'],
                 // the location of the resulting JS file
-                dest: 'build/<%= pkg.name %>.min.js'
+                dest: 'js/<%= pkg.name %>.min.js'
             }
         }
     });

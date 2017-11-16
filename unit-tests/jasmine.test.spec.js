@@ -172,7 +172,7 @@ describe("A spec", function() {
 });
 
 //
-xdescribe("A spec", function() {
+describe("A spec", function() {
 	var foo;
 
 	beforeEach(function() {

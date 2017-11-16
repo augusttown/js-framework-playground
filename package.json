@@ -1,8 +1,8 @@
 {
-    "name": "yt-js-framework-playground",
-    "version": "0.0.2",
+    "name": "js-framework-playground",
+    "version": "1.0.2",
     "license": "UNLICENSED",
-    "registry": "https://artifactory.tools.deloitteinnovation.us/artifactory/api/npm/ch-npm-virtual",
+    "registry": "https://artifactory.tools.deloitteinnovation.us/artifactory/api/npm/npm-virtual",
     "jshintConfig": {
         "validthis": true
     },
@@ -49,8 +49,7 @@
         "karma-sinon": "^1.0.5",
         "morgan": "~1.8.1",
         "serve-favicon": "~2.4.2",
-        "sinon": "^2.3.2",
-        "yt-js-framework-playground": "1.0.0"
+        "sinon": "^2.3.2"
     },
     "resolutions": {
         "d3": "^4.10.0"
