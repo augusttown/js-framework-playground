@@ -1,0 +1,4 @@
+{
+    // http://jshint.com/docs/options/#validthis
+    "validthis": true // Tolerate using this in a non-constructor
+}
