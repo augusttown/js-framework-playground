@@ -1,6 +1,9 @@
-;(function (angular) {
+'use strict';
 
-    "use strict";
+require([
+    'angular',
+    'dimple'
+], function(angular, dimple) {
 
     SimpleDimpleChartController.$inject = ['$scope'];
 
@@ -8,17 +11,20 @@
         //
         var $ctrl = this;
         //
-        var svg = dimple.newSvg("div", 1024, 512);
-        var data = [
-            { "Word":"Hello", "Awesomeness":2000 },
-            { "Word":"World", "Awesomeness":3000 }
-        ];
+        $ctrl.$onInit = function() {
+            //
+            var svg = dimple.newSvg("div", 1024, 512);
+            var data = [
+                { "Word":"Hello", "Awesomeness":2000 },
+                { "Word":"World", "Awesomeness":3000 }
+            ];
 
-        var chart = new dimple.chart(svg, data);
-        chart.addCategoryAxis("x", "Word");
-        chart.addMeasureAxis("y", "Awesomeness");
-        chart.addSeries(null, dimple.plot.bar);
-        chart.draw();
+            var chart = new dimple.chart(svg, data);
+            chart.addCategoryAxis("x", "Word");
+            chart.addMeasureAxis("y", "Awesomeness");
+            chart.addSeries(null, dimple.plot.bar);
+            chart.draw();
+        };
     }
 
     angular.module('app').component('simpleDimpleChart', {
@@ -29,4 +35,4 @@
         controller:  SimpleDimpleChartController
     });
 
-})(window.angular);
+});
